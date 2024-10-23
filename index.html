@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <figure class="nav-figure"></figure>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#aboutMe" class="nav-a">Sobre Mi</a></li>
+            <li class="nav-item"><a href="#proyects" class="nav-a">Proyectos</a></li>
+            <li class="nav-item"><a href="#games" class="nav-a">Juegos</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-a">Contacto</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="header-title">Hola, soy <br> <span>Fabian</span></h1>
+            <p class="header-text">Desarrollador Web</p>
+        </div>
+        <div class="header-cards">
+            <figure class="header-figure header-figure-1"><img src="img/momo-1.jpeg" alt="card-1" class="header-img"></figure>
+            <figure class="header-figure header-figure-2"><img src="img/momo-2.jpeg" alt="card-2" class="header-img"></figure>
+            <figure class="header-figure header-figure-3"><img src="img/momo-3.jpeg" alt="card-2" class="header-img"></figure>
+        </div>
+    </header>
+    <main class="main">
+        <section id="aboutMe" class="aboutMe">
+            <div class="aboutMe-text">
+                <h2 class="aboutMe-title">Sobre Mi</h2>
+                <p class="aboutMe-p">Soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y móviles. Me apasiona la tecnología y la programación, siempre estoy en constante aprendizaje para mejorar mis habilidades y conocimientos.</p>
+            </div>
+            <figure class="aboutMe-figure"><img src="img/Img-4.jpeg" alt="aboutMe" class="aboutMe-img"></figure>
+        </section>
+        <section id="proyects" class="proyects">
+            <h2 class="proyects-title">Demos</h2>
+            <div class="proyects-cards">
+                <figure class="proyects-card" id="proyects-card-1">
+                    <img src="" alt="" id="proyects-card-1">
+                    <figcaption class="proyects-figcaption" id="proyects-figcaption-1">
+                        <h3 class="proyects-title">Demo 1</h3>
+                        <p class="proyects-description">Tienda de cactus</p>
+                        <a target="_blank" href="https://fbnnt.github.io/CactusEXa/" class="proyects-a">Link</a>
+                    </figcaption>
+                </figure>
+                <figure class="proyects-card" id="proyects-card-2">
+                    <img src="" alt="" id="proyects-card-2">
+                    <figcaption class="proyects-figcaption" id="proyects-figcaption-2">
+                        <h3 class="proyects-title">Titulo</h3>
+                        <p class="proyects-description">Descripcion</p>
+                        <a href="" class="proyects-a">Link</a>
+                    </figcaption>
+                </figure>
+                <figure class="proyects-card" id="proyects-card-3">
+                    <img src="" alt="" id="proyects-card-3">
+                    <figcaption class="proyects-figcaption" id="proyects-figcaption-3">
+                        <h3 class="proyects-title">Titulo</h3>
+                        <p class="proyects-description">Descripcion</p>
+                        <a href="" class="proyects-a">Link</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="games" class="proyects">
+            <h2 class="proyects-title">Juegos</h2>
+            <div class="proyects-cards">
+                <figure class="proyects-card" id="games-card-1">
+                    <img src="" alt="" id="proyects-card-1">
+                    <figcaption class="proyects-figcaption" id="games-figcaption-1">
+                        <h3 class="proyects-title">Titulo</h3>
+                        <p class="proyects-description">Descripcion</p>
+                        <a href="" class="proyects-a">Link</a>
+                    </figcaption>
+                </figure>
+                <figure class="proyects-card" id="games-card-2">
+                    <img src="" alt="" id="games-card-2">
+                    <figcaption class="proyects-figcaption" id="games-figcaption-2">
+                        <h3 class="proyects-title">Titulo</h3>
+                        <p class="proyects-description">Descripcion</p>
+                        <a href="" class="proyects-a">Link</a>
+                    </figcaption>
+                </figure>
+                <figure class="proyects-card" id="games-card-3">
+                    <img src="" alt="" id="games-card-3">
+                    <figcaption class="proyects-figcaption" id="games-figcaption-3">
+                        <h3 class="proyects-title">Titulo</h3>
+                        <p class="proyects-description">Descripcion</p>
+                        <a href="" class="proyects-a">Link</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contacto</h2>
+            <div class="contact-content">
+                <form action="" class="contact-form">
+                    <label for="name" class="contact-label">Nombre</label>
+                    <input type="text" name="name" id="name" class="contact-input">
+                    <label for="email" class="contact-label">Correo</label>
+                    <input type="email" name="email" id="email" class="contact-input">
+                    <label for="message" class="contact-label">Mensaje</label>
+                    <textarea name="message" id="message" class="contact-textarea"></textarea>
+                    <button type="submit" class="contact-button">Enviar</button>
+                </form>
+                <figure class="contact-figure">
+                    <img src="img/Img-5.jpeg" alt="contact" class="contact-img">
+                </figure>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
